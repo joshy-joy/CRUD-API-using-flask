@@ -4,7 +4,7 @@ import json, requests
 base_url = "http://127.0.0.1:5000/"
 
 while(True):
-    opt = input("1. Add Event \n2. Get all Events \n3.Get Single Event \n4.Update an Event \n5. Delete Event \n6. Stop \n\n Choose a option : ")
+    opt = input("1. Add Event \n2. Get all Events \n3. Get Single Event \n4. Update an Event \n5. Delete Event \n6. Stop \n\n Choose a option : ")
     if(opt == '1'):
         url = base_url + "event"
         data = {}
